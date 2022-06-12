@@ -1,38 +1,60 @@
 .App {
-  text-align: center;
+    width: "500px";
+    margin: "auto";
+    text-align: "center"
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-div {
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 32%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-link {
+    display: block;
+    height: 55px;
+    margin: 5px auto;
+    background-color: rgb(7, 104, 143);
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    border-radius: 20px;
+    width: 85%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.all-form-main {
+    border: "1px solid";
+    margin: "10px"
 }
 
-.App-link {
-  color: #61dafb;
+.form-container {
+    padding-bottom: "20px"
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-heading {
+    display: "inline";
+    margin-right: "8px"
+}
+
+.view-form-link {
+    color: "blue";
+    cursor: "pointer"
+}
+
+.form-field {
+    margin: "20px";
+    padding: "10px"
+}
+
+.submit-btn {
+    width: "100px";
+    margin: "auto";
+    padding: "0 0 25px 0"
 }
